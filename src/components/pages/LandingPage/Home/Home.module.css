@@ -1,0 +1,352 @@
+/* Hero Section */
+.heroSection {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("public/img/jumbotron.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  min-height: 80vh;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.heroContent {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  text-align: center;
+}
+
+.heroTitle {
+  font-size: 2.25rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.heroSubtitle {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+  max-width: 42rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menuButton {
+  background-color: #b9b28a;
+  color: white;
+  padding: 0.75rem 2rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s ease;
+}
+
+.menuButton:hover {
+  background-color: #f8f3d9;
+  color: black;
+}
+
+/* Featured Section */
+.featuredSection {
+  padding: 4rem 0;
+  background-color: white;
+}
+
+.featuredGrid {
+  display: grid;
+  gap: 2rem;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.featuredItem {
+  text-align: center;
+  padding: 1.5rem;
+}
+
+.featuredIcon {
+  font-size: 2.25rem;
+  color: #504b38;
+  margin-bottom: 1rem;
+}
+
+.featuredTitle {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.featuredText {
+  color: #4b5563;
+}
+
+/* Menu Preview Section */
+.menuSection {
+  padding: 4rem 0;
+  background-color: #f8f3d9;
+}
+
+.menuTitle {
+  font-size: 1.875rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 3rem;
+  color: #504b38;
+}
+
+.menuGrid {
+  display: grid;
+  gap: 2rem;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.menuItem {
+  background-color: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(80, 75, 56, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.menuItem:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(80, 75, 56, 0.15);
+}
+
+.imageContainer {
+  height: 250px;
+  overflow: hidden;
+  position: relative;
+}
+
+.menuImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.menuItem:hover .menuImage {
+  transform: scale(1.05);
+}
+
+.menuContent {
+  padding: 1.5rem;
+  background-color: #ebe5c2;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.menuItemTitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #504b38;
+  margin-bottom: 0.5rem;
+}
+
+.menuDescription {
+  color: #504b38;
+  opacity: 0.8;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  margin-bottom: 1rem;
+  flex-grow: 1;
+}
+
+.menuPrice {
+  color: #b9b28a;
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-top: auto;
+}
+
+/* Reviews Section */
+.reviewsSection {
+  padding: 4rem 0;
+  background-color: #fff;
+}
+
+.reviewsContainer {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.reviewsTitle {
+  font-size: 2rem;
+  text-align: center;
+  color: #504b38;
+  margin-bottom: 1rem;
+}
+
+.reviewsSubtitle {
+  text-align: center;
+  color: #6b6651;
+  margin-bottom: 3rem;
+  font-size: 1.1rem;
+}
+
+.reviewsGrid {
+  display: grid;
+  gap: 2rem;
+}
+
+.reviewCard {
+  background: #fff;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(80, 75, 56, 0.1);
+  transition: transform 0.3s ease;
+  border: 1px solid #eee;
+}
+
+.reviewCard:hover {
+  transform: translateY(-5px);
+}
+
+.reviewHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.reviewerName {
+  font-weight: 600;
+  color: #504b38;
+  margin-bottom: 0.25rem;
+}
+
+.menuItemName {
+  color: #b9b28a;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.reviewComment {
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  font-style: italic;
+}
+
+.reviewDate {
+  color: #999;
+  font-size: 0.85rem;
+  text-align: right;
+}
+
+/* Shared Styles */
+.loading,
+.error {
+  text-align: center;
+  color: #504b38;
+  padding: 2rem;
+}
+
+/* Button Container */
+.buttonContainer {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Login Button with Particle Effect */
+.loginButton {
+  position: relative;
+  color: #0ff;
+  padding: 0.75rem 2rem;
+  border-radius: 0.5rem;
+  border: 2px solid #0ff;
+  background: transparent;
+  overflow: hidden;
+  transition: all 0.5s ease;
+}
+
+.loginButton span {
+  position: relative;
+  z-index: 2;
+  transition: all 0.5s ease;
+}
+
+.loginButton::before,
+.loginButton::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: repeating-radial-gradient(circle at center, #0ff 1px, transparent 2px, transparent 50px);
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+
+.loginButton:hover span {
+  transform: scale(1.5) rotate(360deg);
+  opacity: 0;
+}
+
+.loginButton:hover::before {
+  transform: scale(2) rotate(45deg);
+  opacity: 0.3;
+}
+
+.loginButton:hover::after {
+  transform: scale(2) rotate(-45deg);
+  opacity: 0.3;
+}
+
+.loginButton:hover {
+  border-color: transparent;
+}
+
+/* Media Queries */
+@media (min-width: 768px) {
+  .heroTitle {
+    font-size: 3.75rem;
+  }
+
+  .featuredGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .menuGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .menuItem {
+    height: 100%;
+  }
+
+  .reviewsGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .reviewsTitle {
+    font-size: 2.5rem;
+  }
+
+  .reviewsSubtitle {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .reviewsGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .reviewCard:nth-child(4),
+  .reviewCard:nth-child(5) {
+    grid-column: span 3;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+}

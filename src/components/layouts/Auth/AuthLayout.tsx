@@ -1,4 +1,3 @@
-// components/AuthLayout/AuthLayout.tsx
 import { ReactNode } from "react";
 import { FaCoffee, FaSeedling } from "react-icons/fa";
 import styles from "./AuthLayout.module.css";
@@ -6,6 +5,7 @@ import styles from "./AuthLayout.module.css";
 interface AuthLayoutProps {
   children: ReactNode;
 }
+
 const AuthLayout = ({ children }: AuthLayoutProps) => {
   return (
     <div className={styles.container}>

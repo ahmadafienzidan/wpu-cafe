@@ -1,0 +1,151 @@
+.container {
+  background: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 6px rgba(80, 75, 56, 0.1);
+  font-family: inherit;
+  color: #504b38;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #504b38;
+  margin-bottom: 1.5rem;
+}
+
+.inputGroup {
+  margin-bottom: 1.5rem;
+}
+
+.inputGroup label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #504b38;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.inputGroup input {
+  width: 100%;
+  padding: 0.8rem 1rem;
+  border: 2px solid #b9b28a;
+  border-radius: 20px;
+  font-size: 0.95rem;
+  transition: all 0.3s ease;
+}
+
+.inputGroup input:focus {
+  outline: none;
+  border-color: #b9b28a;
+  box-shadow: 0 0 0 3px rgba(185, 178, 138, 0.3);
+}
+
+.items {
+  margin: 2rem 0;
+  border-top: 1px solid #e5e7eb;
+  border-bottom: 1px solid #e5e7eb;
+  padding: 1rem 0;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 0;
+}
+
+.item:not(:last-child) {
+  border-bottom: 1px solid #f3f4f6;
+}
+
+.itemName {
+  font-weight: 600;
+  color: #504b38;
+}
+
+.itemQuantity {
+  font-size: 0.85rem;
+  color: #888;
+  margin-left: 0.5rem;
+}
+
+.itemPrice {
+  color: #b9b28a;
+  font-weight: 700;
+}
+
+.removeButton {
+  color: #dc2626;
+  background: none;
+  border: none;
+  margin-left: 0.75rem;
+  cursor: pointer;
+  font-size: 1.2rem;
+  line-height: 1;
+  transition: color 0.3s ease;
+}
+
+.removeButton:hover {
+  color: #b91c1c;
+}
+
+.summary {
+  margin: 1.5rem 0;
+}
+
+.summaryRow {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+  color: #6b6a5c;
+  font-size: 0.95rem;
+}
+
+.summaryRowTotal {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #e5e7eb;
+  font-weight: 700;
+  color: #504b38;
+}
+
+.submitButton {
+  width: 100%;
+  background-color: #b9b28a;
+  color: white;
+  padding: 0.9rem;
+  border: none;
+  border-radius: 30px;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.submitButton:hover {
+  background-color: #a9a27a;
+}
+
+.submitButton:disabled {
+  background-color: #d1d5db;
+  cursor: not-allowed;
+}
+
+.notesInput {
+  padding: 0.5rem 1rem;
+  border: 2px solid #b9b28a;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  width: 100%;
+  transition: all 0.3s ease;
+}
+
+.notesInput:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(185, 178, 138, 0.3);
+}

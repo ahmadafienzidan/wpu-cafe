@@ -1,0 +1,96 @@
+.row {
+  border-bottom: 1px solid #e5e7eb;
+  transition: background-color 0.2s ease;
+}
+
+.row:hover {
+  background-color: #fdfcf7;
+}
+
+.cell {
+  padding: 1rem;
+  font-size: 0.875rem;
+  color: #504b38;
+  text-align: center;
+}
+
+.cellItems {
+  padding: 1rem;
+  font-size: 0.875rem;
+  color: #504b38;
+  text-align: left;
+}
+
+.item {
+  margin: 0.25rem 0;
+}
+
+.note {
+  font-size: 0.75rem;
+  color: #88826b;
+}
+
+.status {
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.processing {
+  background-color: #bfdbfe;
+  color: #1e40af;
+}
+
+.completed {
+  background-color: #bbf7d0;
+  color: #166534;
+}
+
+.pending {
+  background-color: #fef3c7;
+  color: #92400e;
+}
+
+.actions {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.select {
+  padding: 0.25rem 0.5rem;
+  border: 1px solid #b9b28a;
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
+  background: #fff;
+  color: #504b38;
+  transition: background-color 0.2s ease;
+}
+
+.select:hover {
+  background-color: #f5f0dd;
+}
+
+.deleteButton {
+  padding: 0.25rem 0.5rem;
+  color: #ef4444;
+  background: none;
+  border: 1px solid transparent;
+  cursor: pointer;
+  font-size: 0.875rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.2s ease;
+}
+
+.deleteButton:hover {
+  background-color: #fde8e8;
+}
+
+.detailLink {
+  text-decoration: none;
+  color: #1e40af;
+  font-weight: 600;
+}

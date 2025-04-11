@@ -1,7 +1,6 @@
-/* components/AuthLayout/AuthLayout.module.css */
 .container {
   min-height: 100vh;
-  background-color: #fffbeb;
+  background-color: #fdfcf6;
   display: flex;
   align-items: center;
 }
@@ -16,7 +15,7 @@
 
 .coffeeIcon {
   font-size: 12.5rem;
-  color: #92400e;
+  color: #b9b28a;
 }
 
 .contentContainer {
@@ -42,7 +41,7 @@
   position: relative;
   border-radius: 1rem;
   overflow: hidden;
-  border: 8px solid #fffbeb;
+  border: 8px solid #fdfcf6;
   transform: rotate(1deg);
   transition: all 0.3s ease;
 }
@@ -62,19 +61,19 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background: linear-gradient(to top, rgba(120, 53, 15, 0.8), transparent);
+  background: linear-gradient(to top, rgba(80, 75, 56, 0.8), transparent);
   padding: 2rem;
 }
 
 .overlayTitle {
   font-size: 1.875rem;
   font-weight: 700;
-  color: #fef3c7;
+  color: #fefce8;
   margin-bottom: 0.5rem;
 }
 
 .overlayText {
-  color: #fde68a;
+  color: #cfc8a3;
   font-size: 1.125rem;
   font-style: italic;
 }
@@ -83,7 +82,7 @@
   position: absolute;
   top: 1rem;
   right: 1rem;
-  color: #fde68a;
+  color: #eae4c4;
   font-size: 2.25rem;
   opacity: 0.75;
 }

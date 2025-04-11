@@ -1,0 +1,43 @@
+.footer {
+  background: linear-gradient(135deg, #b9b28a, #504b38);
+  padding: 2rem 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  text-align: center;
+}
+
+.socialLinks {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.socialLink {
+  color: #f8f3d9;
+  font-size: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.socialLink:hover {
+  color: #9b3922;
+  transform: translateY(-2px);
+}
+
+.address {
+  color: #f8f3d9;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+.copyright {
+  color: rgba(248, 243, 217, 0.8);
+  font-size: 0.8rem;
+  margin-top: 1.5rem;
+}

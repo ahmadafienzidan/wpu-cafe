@@ -1,0 +1,235 @@
+.page {
+  background: #f9fafb;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background: #ffffff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 1.5rem;
+  color: #f59e0b;
+}
+
+.logoText {
+  font-weight: bold;
+  color: #1f2937;
+  font-size: 1.25rem;
+}
+
+.navActions {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.backLink {
+  color: #4b5563;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.backLink:hover {
+  color: #f59e0b;
+}
+
+.logoutButton {
+  background: #f59e0b;
+  color: #ffffff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.logoutButton:hover {
+  background: #d97706;
+}
+
+.main {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 32px 16px;
+}
+
+.orderCard {
+  background: #ffffff;
+  border-radius: 0.75rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  padding: 24px;
+}
+
+.orderHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 24px;
+}
+
+.orderTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #1f2937;
+}
+
+.orderDate {
+  color: #6b7280;
+  font-size: 0.875rem;
+}
+
+.statusBadge {
+  padding: 4px 12px;
+  background: #dbeafe;
+  color: #1d4ed8;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+}
+
+.customerInfo {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.infoTitle {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #6b7280;
+  margin-bottom: 4px;
+}
+
+.infoText {
+  font-size: 1rem;
+  color: #1f2937;
+}
+
+.orderItems {
+  border-top: 1px solid #e5e7eb;
+  border-bottom: 1px solid #e5e7eb;
+  padding: 24px 0;
+  margin-bottom: 32px;
+}
+
+.sectionTitle {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: #111827;
+}
+
+.itemRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 12px 0;
+}
+
+.itemInfo {
+  flex: 1;
+}
+
+.itemName {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #111827;
+}
+
+.itemDescription {
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+.itemNotes {
+  font-size: 0.875rem;
+  color: #f59e0b;
+  margin-top: 4px;
+}
+
+.itemPrice {
+  text-align: right;
+  min-width: 100px;
+}
+
+.priceDetail {
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.priceTotal {
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+.orderSummary {
+  margin-bottom: 32px;
+}
+
+.summaryRow {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 0;
+  font-size: 1rem;
+}
+
+.summaryTotal {
+  font-weight: bold;
+}
+
+.actionButtons {
+  display: flex;
+  gap: 16px;
+}
+
+.editButton,
+.deleteButton {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.editButton {
+  background: #f59e0b;
+  color: #ffffff;
+}
+
+.editButton:hover {
+  background: #d97706;
+}
+
+.deleteButton {
+  background: #fee2e2;
+  color: #dc2626;
+}
+
+.deleteButton:hover {
+  background: #fecaca;
+}
+
+.loading {
+  text-align: center;
+  font-size: 1.25rem;
+  color: #6b7280;
+  margin-top: 50px;
+}

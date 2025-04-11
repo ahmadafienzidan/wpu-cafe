@@ -1,0 +1,125 @@
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+.gridTwoCols {
+  display: grid;
+  gap: 2rem;
+  align-items: start;
+}
+
+@media (min-width: 1024px) {
+  .gridTwoCols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.card {
+  background-color: #fefce8;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 1px 4px rgba(80, 75, 56, 0.1);
+}
+
+.formTitle {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #504b38;
+}
+
+.fieldGroup {
+  margin-bottom: 1rem;
+}
+
+.label {
+  display: block;
+  color: #6b6650;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.input {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border: 1px solid #d6d0a8;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  background-color: #fffbeb;
+  color: #504b38;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #c49c57;
+  box-shadow: 0 0 0 2px rgba(196, 156, 87, 0.4);
+}
+
+.textarea {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border: 1px solid #d6d0a8;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  background-color: #fffbeb;
+  color: #504b38;
+}
+
+.textarea:focus {
+  outline: none;
+  border-color: #c49c57;
+  box-shadow: 0 0 0 2px rgba(196, 156, 87, 0.4);
+}
+
+.button {
+  background-color: #c49c57;
+  color: #ffffff;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 0.75rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.button:hover {
+  background-color: #a67c3f;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.reviewCard {
+  background-color: #f8f3d9;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 1px 4px rgba(80, 75, 56, 0.1);
+}
+
+.reviewHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.comment {
+  color: #6b6650;
+}
+
+.date {
+  color: #bcb88e;
+  font-size: 0.875rem;
+  margin-top: 0.5rem;
+}
+
+.menuItem {
+  color: #8a8564;
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+}
