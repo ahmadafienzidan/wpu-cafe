@@ -49,7 +49,7 @@ const Login = () => {
           <label htmlFor="email" className={styles.label}>
             Email
           </label>
-          <input id="email" type="email" placeholder="✨ admin@wpucafe.com" value={email} onChange={(e) => setEmail(e.target.value)} className={styles.input} />
+          <input id="email" type="email" placeholder="✨ Input Username" value={email} onChange={(e) => setEmail(e.target.value)} className={styles.input} />
         </div>
 
         <div className={styles.inputGroup}>
